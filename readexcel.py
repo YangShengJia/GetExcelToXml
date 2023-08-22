@@ -39,17 +39,19 @@ for string_element in root.findall("string"):
     name = string_element.get("name")
     text = string_element.text#get xml value
     if name in excel_data_item:
-        matching_value = excel_data_item[excel_data_item.index(name)]
-        if matchin_value != "#N/A":
-            change_value = excel_data_value[excel_data_item.index(name)]
-        else :
-            change_value =
+        matching_value = excel_data_item[excel_data_item.index(name)]       
+        change_value = excel_data_value[excel_data_item.index(name)]
+        if	change_value != "#N/A":
+            string_element.text = change_value
+            #break
+        else:
+            na_value = change_value
 #       print(f"Matching name: {name}")
 #       print(f"Matching text: {text}")
 #       print(f"Matching value: {matching_value}")
 #       print(f"Change value: {change_value}")
-        string_element.text = change_value
-
+        #string_element.text = change_value
+'''
 for string_element in root.findall("string"):
     text = string_element.text#get xml value
     if text in excel_data_engb_value:
@@ -58,11 +60,12 @@ for string_element in root.findall("string"):
         change_value = excel_data_value[excel_data_engb_value.index(text)]
         print(f"Matching Hindi name:{matching_value} : {change_value}")
         string_element.text = change_value
-    
+'''    
 
 #tree.write(xml_file_path)
 tree.write(xml_file_path, encoding="utf-8", xml_declaration=True)
 #detect language
+'''
 for string_element in root.findall("string"):
     name = string_element.get("name")#get xml name
     text = string_element.text#get xml value
@@ -74,9 +77,9 @@ for string_element in root.findall("string"):
         detected_language = detect(text)
         if detected_language == "en":
             print(f"Eng {name}: {text}")
-        #else :
-        #    print(f"Eng {name}: {text}")
-    
+        else :
+            print(f"Eng {name}: {text}")
+'''   
    
         
     
