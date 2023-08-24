@@ -1,0 +1,116 @@
+
+Eng IF txtLoaded: Loaded
+Eng IF title_activity_message: MessageActivity
+
+Eng IF txtQuestionValidation: This information is required.
+Eng special character txtStatementWinOrLose: Win/Lose
+Eng IF txtShowDownloadDialogTitle: Download the updated version.
+Eng IF txtShowEnforceDownloadDialogTitle: A new version of this application is now ready to install.
+Eng special character txtYourBalance: Your current balance is:
+
+Eng IF txtRetry: Retry
+Eng IF txtLatestVersion: The version is the latest
+Eng special character txtInstalled: Installed:
+
+Eng IF errMEMB0003: Password strength requirements not met.
+Eng IF errMEMB0015: System Error. Please try again or simply fill out the form with your address information.
+Eng IF txtMaintenanceContentWithTime_1: 188BET website is currently unavailable due to our regular system maintenance and upgrading efforts.  We expect to complete the maintenance and upgrades by
+Eng IF txtMaintenanceContentWithTime_1_1: so please try again soon.
+Eng IF txtMaintenanceContentWithTime_2: We apologise for any inconvenience this might have caused you while we improve the 188BET experience for you. Thank you for your support and patience. We look forward to seeing you when the work is completed.
+Eng IF txtMaintenanceContentWithTime_3: 188BET Website will be available in about
+Eng IF txtMaintenanceContentWithTime_4: We apologise for any inconvenience caused. If you require any further assistance, please contact our support team through the options below. Thank you for your patience.
+Eng txtMaintenanceContentWithTime_5: None
+Eng IF txtMaintenanceContent_1: Due to unforeseen circumstances, 188BET is currently undergoing unscheduled system maintenance. We sincerely apologise for this inconvenience and are working hard to get services back online as soon as possible. We are expecting services to be resumed shortly so please try again soon.
+Eng txtMaintenanceContent_2: None
+Eng txtMaintenanceContent_3: None
+Eng IF txtMaintenanceContent_4: If you require any further assistance, please contact our support team through the options below. Thank you for your patience.
+Eng txtMaintenanceContent_5: None
+Eng special character txtMaintenanceTelAsiaTitle: Telephone No. (Asia Region):
+Eng SYMBOL PLUS txtMaintenanceTelAsia: +852 5808 3608
+Eng special character txtMaintenanceFaxAsiaTitle: Fax No. (Asia Region):
+Eng SYMBOL PLUS txtMaintenanceFaxAsia: +852 3010 2113
+Eng special character txtMaintenanceTelEuroTitle: Telephone No. (Europe Region):
+Eng SYMBOL PLUS txtMaintenanceTelEuro: +44 20 3318 0702
+Eng special character txtMaintenanceFaxEuroTitle: Fax No. (Europe Region):
+Eng SYMBOL PLUS txtMaintenanceFaxEuro: +44 20 7022 8668
+Eng special character txtMaintenanceTelBrazilTitle: Telephone No. (Brazil):
+Eng NUMBER txtMaintenanceTelBrazil: 0800 591 3001
+Eng special character txtMaintenanceEmailTitle: Email Address:
+Eng special character txtMaintenanceEmail: support-en@188service.com
+Eng IF txtHours: Hours
+Eng IF txtSeconds: Seconds
+Eng IF errITGR0012: It is forbidden to access this app from your location. We regret any inconvenience caused.
+Eng special character errPROD0001: %s is under maintenance. Please try later.
+Eng IF msgSecureChangePassSuccessTitle: Password Changed Successfully.
+Eng IF msgSecureChangePassSuccessContext: Please login using your new password.
+Eng IF msgAccountCreatedSuccessfully: Your account has been created successfully. Login and find out how you may fund your account today.
+Eng IF errMEMB0001: Enter a Password of between 6 to 15 characters.
+Eng IF msgTransferMaintenance: Transfer function is under maintenance. Please try later.
+
+
+Eng special character txtPartnerId01: Casino (MGS)
+Eng special character txtPartnerId02: Casino (BSG)
+Eng special character txtPartnerId04: Casino - CIP (MGS)
+Eng special character txtPartnerId05: Horse Racing (GBE)
+Eng special character txtPartnerId07: Financials (Cantor)
+Eng special character txtPartnerId08: MGS_Poker
+Eng special character txtPartnerId13: Casino (Laxino)
+Eng special character txtPartnerId15: Financials (Tradologic)
+Eng special character txtPartnerId16: Horse Racing (SBT)
+Eng special character txtPartnerId17: Casino (AgileSlot)
+Eng IF errITGR0013: This app is not supported in your location. We regret any inconvenience caused.
+Eng special character errLOGN0018: Forgot your account credentials? Click on the “Forgot Account“ self-help option.
+Eng IF errLOGN0020: This service is unavailable. Please contact Customer Service for assistance.
+
+Eng IF txtAccountAttachReceipts: Attach files
+Eng special character txtDidNotGetCode: Didn\'t get the code?
+
+
+Eng IF txtNewPasswordContent: Please set a new password
+Eng special character txtAccountInvalidCodeError_left2: Invalid code. %d attempts left.
+
+Eng IF msgSystemError: System Error.\nPlease contact customer service.
+Eng special character txtVerificationSuccessContent_1: Success! 
+Eng IF txtVerificationSuccessContent_2: We\'ve received your documents
+
+Eng IF txtSecurityCodeExpired: SECURITY CODE EXPIRED
+Eng IF msgSecurityCodeExpired: The security code has expired.
+Eng IF txtOngoingChat: You have an ongoing chat session
+
+Eng special character msgLoginError1020: Forgot your account credentials? Click on the “Forgot Account“ self-help option.
+Eng IF msgLoginError1014: You have set a Time Out on your account that prevents you from using our services at this time. You can contact us once this period has expired to request for the removal of Time Out.
+Eng IF msgLoginError1011: Permanent Self-Exclusion has applied on your account.\nYou are permanently excluded from all 188BET products and services.
+Eng IF msgLoginError1010: You have set a self-exclusion on your account that prevents you from using our services for at least 6 months. You can contact us once this period has expired to request removing self exclusion.
+
+Eng IF txtMegatronTeaser_0: Welcome to our new Sportsbook App
+Eng IF txtMegatronTeaserContent_1: More events and markets on our homepage to give you a full overview of what is In-Play and what key events are coming up.
+Eng IF txtMegatronTeaserTitle_2: MARKET TO MARKET SWIPING
+Eng IF txtMegatronTeaserContent_2: See more markets on our Events page by swiping left and right. Look for the small circles under the odds.
+Eng IF txtMegatronTeaserContent_3: Enhanced prices on high profile events are highlighted throughout our new App. Look for the  []  icon.
+Eng IF txtMegatronTeaserTitle_4: MORE INFORMATION
+Eng IF txtMegatronTeaserContent_4: Event Head to Head information is available to help you check how a participant has been performing recently. Look for the  []  icon to view for that event.
+Eng special character txtMegatronTeaserContent_5: While creating a parlay, you can see the accumulator price in the Bet Slip button. This price will update as you add / remove selections to your Bet Slip.
+
+Eng IF txtReloadPage: Reload Page
+Eng IF txtRefresh: Refresh
+
+Eng IF msgLinkResGaming: Responsible Gaming.
+
+Eng IF txtSportAnnounceSubTitle: Available for selected Football Matches
+Eng IF txtCaptchaNote: Enter the captcha codes shown below
+
+Eng special character txtDeleteCountMessage: Delete (%d) messages
+
+Eng IF btnOKandGotIt: OK, GOT IT
+Eng special character sdfTimeDate: dd/MM/yyyy
+Eng special character sdfTimeDateWithTime: dd/MM/yyyy HH:mm
+Eng special character sdfTimeDateWithDetailTime: dd/MM/yyyy HH:mm:ss
+Eng special character txtProhibited: Access Prohibited!
+Eng IF txtPromoContribution: Contribution
+Eng IF txtPromoDateJoined: Date Joined
+Eng IF txtPromoTotalApprovedBonus: Total Approved Bonus
+Eng IF txtPromoTotalBonusPot: Total Bonus Pot
+Eng IF txtPromoCompleted: Completed
+Eng IF txtPromoPendingApprove: Pending Approve
+Eng IF titAccountEmailNotVerified: Your email address is not yet verified.
+Eng IF txtAccountVerifyEmailNow: Please verify your email address now.

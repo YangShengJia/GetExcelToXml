@@ -1,0 +1,115 @@
+txtLoaded;Loaded
+title_activity_message;MessageActivity
+ 
+txtQuestionValidation;This information is required. 
+character txtStatementWinOrLose;Win/Lose 
+txtShowDownloadDialogTitle;Download the updated version. 
+txtShowEnforceDownloadDialogTitle;A new version of this application is now ready to install.
+txtYourBalance;Your current balance is: 
+ 
+txtRetry;Retry
+txtLatestVersion;The version is the latest
+txtInstalled;Installed:
+ 
+errMEMB0003;Password strength requirements not met.
+errMEMB0015;System Error. Please try again or simply fill out the form with your address information.
+txtMaintenanceContentWithTime_1;188BET website is currently unavailable due to our regular system maintenance and upgrading efforts. We expect to complete the maintenance and upgrades by
+txtMaintenanceContentWithTime_1_1;so please try again soon.
+txtMaintenanceContentWithTime_2;We apologise for any inconvenience this might have caused you while we improve the 188BET experience for you. Thank you for your support and patience. We look forward to seeing you when the work is completed. 
+txtMaintenanceContentWithTime_3;188BET Website will be available in about
+txtMaintenanceContentWithTime_4;We apologise for any inconvenience caused. If you require any further assistance please contact our support team through the options below. Thank you for your patience. 
+txtMaintenanceContentWithTime_5;None
+txtMaintenanceContent_1;Due to unforeseen circumstances 188BET is currently undergoing unscheduled system maintenance. We sincerely apologise for this inconvenience and are working hard to get services back online as soon as possible. We are expecting services to be resumed shortly so please try again soon.
+txtMaintenanceContent_2;None
+txtMaintenanceContent_3;None
+txtMaintenanceContent_4;If you require any further assistance please contact our support team through the options below. Thank you for your patience. 
+txtMaintenanceContent_5;None
+txtMaintenanceTelAsiaTitle;Telephone No. (Asia Region): 
+txtMaintenanceTelAsia;+852 5808 3608
+txtMaintenanceFaxAsiaTitle;Fax No. (Asia Region): 
+txtMaintenanceFaxAsia;+852 3010 2113
+txtMaintenanceTelEuroTitle;Telephone No. (Europe Region): 
+txtMaintenanceTelEuro;+44 20 3318 702 
+txtMaintenanceFaxEuroTitle;Fax No. (Europe Region): 
+txtMaintenanceFaxEuro;+44 20 7022 8668 
+txtMaintenanceTelBrazilTitle;Telephone No. (Brazil):
+txtMaintenanceTelBrazil;800 591 3001
+txtMaintenanceEmailTitle;Email Address: 
+txtMaintenanceEmail;support-en@188service.com
+txtHours;Hours
+txtSeconds;Seconds
+errITGR0012;It is forbidden to access this app from your location. We regret any inconvenience caused.
+errPROD0001;%s is under maintenance. Please try later.
+msgSecureChangePassSuccessTitle;Password Changed Successfully.
+msgSecureChangePassSuccessContext;Please login using your new password. 
+msgAccountCreatedSuccessfully;Your account has been created successfully. Login and find out how you may fund your account today.
+errMEMB0001;Enter a Password of between 6 to 15 characters.
+msgTransferMaintenance;Transfer function is under maintenance. Please try later. 
+ 
+ 
+txtPartnerId01;Casino (MGS) 
+txtPartnerId02;Casino (BSG) 
+txtPartnerId04;Casino - CIP (MGS) 
+txtPartnerId05;Horse Racing (GBE)
+txtPartnerId07;Financials (Cantor) 
+txtPartnerId08;MGS_Poker
+txtPartnerId13;Casino (Laxino) 
+txtPartnerId15;Financials (Tradologic) 
+txtPartnerId16;Horse Racing (SBT)
+txtPartnerId17;Casino (AgileSlot) 
+errITGR0013;This app is not supported in your location. We regret any inconvenience caused.
+errLOGN0018;Forgot your account credentials? Click on the \Forgot Account\ self-help option. 
+errLOGN0020;This service is unavailable. Please contact Customer Service for assistance. 
+ 
+txtAccountAttachReceipts;Attach files 
+txtDidNotGetCode;Didn\'t get the code?
+ 
+ 
+txtNewPasswordContent;Please set a new password
+txtAccountInvalidCodeError_left2;Invalid code. %d attempts left. 
+ 
+msgSystemError;System Error.\nPlease contact customer service.
+txtVerificationSuccessContent_1;Success! 
+txtVerificationSuccessContent_2;We\'ve received your documents 
+ 
+txtSecurityCodeExpired;SECURITY CODE EXPIRED
+msgSecurityCodeExpired;The security code has expired.
+txtOngoingChat;You have an ongoing chat session 
+ 
+msgLoginError1020;Forgot your account credentials? Click on the \Forgot Account\ self-help option. 
+msgLoginError1014;You have set a Time Out on your account that prevents you from using our services at this time. You can contact us once this period has expired to request for the removal of Time Out. 
+msgLoginError1011;Permanent Self-Exclusion has applied on your account.\nYou are permanently excluded from all 188BET products and services. 
+msgLoginError1010;You have set a self-exclusion on your account that prevents you from using our services for at least 6 months. You can contact us once this period has expired to request removing self exclusion. 
+ 
+txtMegatronTeaser_0;Welcome to our new Sportsbook App 
+txtMegatronTeaserContent_1;More events and markets on our homepage to give you a full overview of what is In-Play and what key events are coming up. 
+txtMegatronTeaserTitle_2;MARKET TO MARKET SWIPING 
+txtMegatronTeaserContent_2;See more markets on our Events page by swiping left and right. Look for the small circles under the odds. 
+txtMegatronTeaserContent_3;Enhanced prices on high profile events are highlighted throughout our new App. Look for the [] icon.
+txtMegatronTeaserTitle_4;MORE INFORMATION 
+txtMegatronTeaserContent_4;Event Head to Head information is available to help you check how a participant has been performing recently. Look for the [] icon to view for that event. 
+txtMegatronTeaserContent_5;While creating a parlay you can see the accumulator price in the Bet Slip button. This price will update as you add / remove selections to your Bet Slip.
+ 
+txtReloadPage;Reload Page 
+txtRefresh;Refresh
+ 
+msgLinkResGaming;Responsible Gaming. 
+ 
+txtSportAnnounceSubTitle;Available for selected Football Matches
+txtCaptchaNote;Enter the captcha codes shown below 
+ 
+txtDeleteCountMessage;Delete (%d) messages
+ 
+btnOKandGotIt;OK GOT IT
+sdfTimeDate;dd/MM/yyyy
+sdfTimeDateWithTime;dd/MM/yyyy HH:mm 
+sdfTimeDateWithDetailTime;dd/MM/yyyy HH:mm:ss 
+txtProhibited;Access Prohibited! 
+txtPromoContribution;Contribution
+txtPromoDateJoined;Date Joined 
+txtPromoTotalApprovedBonus;Total Approved Bonus
+txtPromoTotalBonusPot;Total Bonus Pot
+txtPromoCompleted;Completed
+txtPromoPendingApprove;Pending Approve 
+titAccountEmailNotVerified;Your email address is not yet verified.
+txtAccountVerifyEmailNow;Please verify your email address now. 

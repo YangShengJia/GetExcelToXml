@@ -1,6 +1,20 @@
 import openpyxl
 import xml.etree.ElementTree as ET
+import re
 from langdetect import detect
+
+def detect_special_characer(pass_string): 
+    regex= re.compile('[@_!#$%^&*()<>?/\|}{~:]') 
+    if(regex.search(pass_string) == None): 
+        res = False
+    else: 
+        res = True
+    return(res)
+    
+def safe_startswith(text, prefix):
+    if text is None:
+        return False
+    return text.startswith(prefix)
 
 # Read data from Excel column
 excel_file_path = "/Users/07607.ben.yang/testexcel.xlsx"
@@ -47,9 +61,6 @@ for string_element in root.findall("string"):
             na_value = change_value
 #       print(f"Matching name: {name}")
 #       print(f"Matching text: {text}")
-#       print(f"Matching value: {matching_value}")
-#       print(f"Change value: {change_value}")
-        #string_element.text = change_value
 
 for string_element in root.findall("string"):
     text = string_element.text#get xml value
@@ -57,31 +68,36 @@ for string_element in root.findall("string"):
         matching_value = excel_data_engb_value[excel_data_engb_value.index(text)]
         #print(f"Matching name: {matching_value}")
         change_value = excel_data_value[excel_data_engb_value.index(text)]
-        print(f"Matching Hindi name:{matching_value} : {change_value}")
+        #print(f"Matching Hindi name:{matching_value} : {change_value}")
         if change_value != "#N/A":
             string_element.text = change_value
         else :
             na_value = change_value
 
 #tree.write(xml_file_path)
-tree.write(xml_file_path, encoding="utf-8", xml_declaration=True)
+#tree.write(xml_file_path, encoding="utf-8", xml_declaration=True)
 #detect language
-'''
+
 for string_element in root.findall("string"):
     name = string_element.get("name")#get xml name
     text = string_element.text#get xml value
-    if name == "txtMaintenanceTelAsiaTitle":
-        print(f"Eng {name}: {text}")
-    if text == None:
-        print(f"Eng {name}: {text}")
+    
+    if  text == None:
+        noneText = None
+        print(f"Eng {name}; {noneText}")
+    elif safe_startswith(text, "+"):
+        plusString = text
+        print(f"Eng SYMBOL PLUS {name}; {plusString}")
+    elif safe_startswith(text, "0"):
+        numberString = text
+        print(f"Eng NUMBER {name}; {numberString}")
+    elif detect_special_characer(text):
+        specialStirng = text
+        print(f"Eng special character {name}; {specialStirng}")        
     else:
         detected_language = detect(text)
         if detected_language == "en":
-            print(f"Eng {name}: {text}")
-        else :
-            print(f"Eng {name}: {text}")
-'''   
-   
-        
-    
+            print(f"Eng ELSE {name}; {text}")
+            
 print("Comparison done.")
+

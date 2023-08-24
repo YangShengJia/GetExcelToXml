@@ -60,7 +60,7 @@
     <string name="navStatement">कथन</string>
     <string name="txtStatementSummary">सारांश</string>
     <string name="navSupport">सहायता</string>
-    <string name="navTermsAndConditions">नियम एवं शर्तें</string>
+    <string name="navTermsAndConditions">नियम &amp; शर्तें</string>
     <string name="txtStatementTxnHistory">ट्रांजेक्शन इतिहास</string>
     <string name="txtStatementWinOrLose">Win/Lose</string>
     <string name="txtStatementWin">जीतना</string>
