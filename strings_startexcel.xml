@@ -1,4 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="TypographyDashes">
     <string name="navSettings">समायोजन</string>
     <string name="phJoinUsUserId">यूजरनेम / ईमेल</string>
     <string name="txtJoinUsPassword">पासवर्ड</string>
@@ -59,9 +60,9 @@
     <string name="navStatement">कथन</string>
     <string name="txtStatementSummary">सारांश</string>
     <string name="navSupport">सहायता</string>
-    <string name="navTermsAndConditions">नियम &amp; शर्तें</string>
+    <string name="navTermsAndConditions">नियम एवं शर्तें</string>
     <string name="txtStatementTxnHistory">ट्रांजेक्शन इतिहास</string>
-    <string name="txtStatementWinOrLose">जीतना/खोना</string>
+    <string name="txtStatementWinOrLose">Win/Lose</string>
     <string name="txtStatementWin">जीतना</string>
     <string name="txtStatementLose">खोना</string>
     <string name="lobby_message_next">अगला</string>
@@ -76,7 +77,7 @@
     <string name="txtMainWallet">बटुआ</string>
     <string name="txtInboxYou">आप</string>
     <string name="txtSuggestDeposit">हमारा सुझाव है कि गेम और सेवाओं का लगातार आनंद लेने के लिए आप अभी धनराशि जमा करें।</string>
-    <string name="txtYourBalance">आपका वर्तमान शेष है:</string>
+    <string name="txtYourBalance">Your current balance is:</string>
     <string name="txtDrawLockPattern">कृपया एक अनलॉक पैटर्न बनाएं</string>
     <string name="txtDrawUnlockScreen">कृपया स्क्रीन अनलॉक करने के लिए पैटर्न बनाएं</string>
     <string name="txtDrawAgain">इसकी पुष्टि के लिए पैटर्न दोबारा बनाएं</string>
@@ -92,7 +93,7 @@
     <string name="txtStatementApproved">अनुमत</string>
     <string name="txtStatementBonusRewarded">बोनस पुरस्कार दिया गया</string>
     <string name="txtStatementCancelled">रद्द</string>
-    <string name="txtStatementPendingSettlement">लंबित निपटान</string>
+    <string name="txtStatementPendingSettlement">Pending Settlement</string>
     <string name="txtStatementRejected">अस्वीकार कर दिया</string>
     <string name="txtStatementRevoked">निरस्त किया गया</string>
     <string name="txtStatementAwaiting">प्रतीक्षा कर रहा है</string>
@@ -100,7 +101,7 @@
     <string name="txtStatementSettledBets">तयशुदा बेट</string>
     <string name="txtStatementTotal">कुल</string>
     <string name="txtLatestVersion">The version is the latest</string>
-    <string name="txtStatementUnsettledBets">अस्थिर बेट</string>
+    <string name="txtStatementUnsettledBets">Unsettled bets</string>
     <string name="txtComNotice">सूचना</string>
     <string name="txtStatementCredit">श्रेय</string>
     <string name="txtStatementDebit">खर्चे में लिखना</string>
@@ -115,7 +116,7 @@
     <string name="errLOGN0015">जारी रखने के लिए कृपया दोबारा लॉग इन करें।</string>
     <string name="errMEMB0002">आपका नया पासवर्ड हमारी पासवर्ड नीति के अनुरूप नहीं है या पहले इस्तेमाल किया जा चुका है।</string>
     <string name="errMEMB0003">Password strength requirements not met.</string>
-    <string name="errMEMB0015">सिस्टम त्रुटि कृपया पुनः प्रयास करें या बस अपने पते की जानकारी के साथ फ़ॉर्म भरें।</string>
+    <string name="errMEMB0015">System Error. Please try again or simply fill out the form with your address information.</string>
     <string name="txtStatementGameCount">खेल गिनती</string>
     <string name="txtComLast7Days">1 सप्ताह</string>
     <string name="txtStatementStake">दांव</string>
@@ -133,29 +134,29 @@
     <string name="txtMaintenanceContent_3" />
     <string name="txtMaintenanceContent_4">If you require any further assistance, please contact our support team through the options below. Thank you for your patience.</string>
     <string name="txtMaintenanceContent_5" />
-    <string name="txtMaintenanceTelAsiaTitle">टेलीफ़ोन नंबर. (Asia Region):</string>
+    <string name="txtMaintenanceTelAsiaTitle">Telephone No. (Asia Region):</string>
     <string name="txtMaintenanceTelAsia">+852 5808 3608</string>
     <string name="txtMaintenanceFaxAsiaTitle">Fax No. (Asia Region):</string>
     <string name="txtMaintenanceFaxAsia">+852 3010 2113</string>
-    <string name="txtMaintenanceTelEuroTitle">टेलीफ़ोन नंबर. (Europe Region):</string>
+    <string name="txtMaintenanceTelEuroTitle">Telephone No. (Europe Region):</string>
     <string name="txtMaintenanceTelEuro">+44 20 3318 0702</string>
     <string name="txtMaintenanceFaxEuroTitle">Fax No. (Europe Region):</string>
     <string name="txtMaintenanceFaxEuro">+44 20 7022 8668</string>
-    <string name="txtMaintenanceTelBrazilTitle">टेलीफ़ोन नंबर. (Brazil):</string>
+    <string name="txtMaintenanceTelBrazilTitle">Telephone No. (Brazil):</string>
     <string name="txtMaintenanceTelBrazil">0800 591 3001</string>
-    <string name="txtMaintenanceEmailTitle">मेल पता:</string>
+    <string name="txtMaintenanceEmailTitle">Email Address:</string>
     <string name="txtMaintenanceEmail">support-en@188service.com</string>
-    <string name="txtDays">दिन</string>
-    <string name="txtHours">घंटा</string>
-    <string name="txtMinutes">मिनट</string>
-    <string name="txtSeconds">सेकंड</string>
+    <string name="txtDays">Days</string>
+    <string name="txtHours">Hours</string>
+    <string name="txtMinutes">Minutes</string>
+    <string name="txtSeconds">Seconds</string>
     <string name="errITGR0012">It is forbidden to access this app from your location. We regret any inconvenience caused.</string>
     <string name="errPROD0001">%s is under maintenance. Please try later.</string>
     <string name="txtStatementRemarks">टिप्पणियां</string>
     <string name="txtTransferFromBingo">Transfer From Bingo</string>
     <string name="txtTransferFromCasino">कैसीनो से स्थानांतरण</string>
-    <string name="msgSecureChangePassSuccessTitle">पासवर्ड बदलें</string>
-    <string name="msgSecureChangePassSuccessContext">पासवर्ड सफलतापूर्वक बदला गया। कृपया अपने नए पासवर्ड का उपयोग करके लॉगिन करें।</string>
+    <string name="msgSecureChangePassSuccessTitle">Password Changed Successfully.</string>
+    <string name="msgSecureChangePassSuccessContext">Please login using your new password.</string>
     <string name="msgAccountCreatedSuccessfully">Your account has been created successfully. Login and find out how you may fund your account today.</string>
     <string name="errMEMB0001">Enter a Password of between 6 to 15 characters.</string>
     <string name="msgBankingPageMaintenance">हमारा बैंकिंग पेज अभी रखरखाव में है, कृपया बाद में पुनः प्रयास करें।</string>
@@ -168,27 +169,27 @@
     <string name="txtUnlock">अनलॉक</string>
     <string name="app_name">188BET</string>
     <string name="navAboutUs">हमारे बारे में</string>
-    <string name="txtConnectionTimeOut">आपके डिवाइस को आपके नेटवर्क से कनेक्ट होने में कठिनाई हो रही है. यदि आप मोबाइल डेटा प्लान का उपयोग कर रहे हैं,
+    <string name="txtConnectionTimeOut">आपके डिवाइस को आपके नेटवर्क से कनेक्ट होने में कठिनाई हो रही है. यदि आप मोबाइल डेटा प्लान का उपयोग कर रहे हैं, 
 तो कृपया अपने सिग्नल और सेवा की जांच करें और पुनः प्रयास करें। आप वाईफ़ाई पर स्विच करने का भी प्रयास कर सकते हैं।</string>
     <string name="txtBtnComNo">नहीं</string>
     <string name="txtBtnComYes">हाँ</string>
     <string name="txtBtnComDismiss">नकार</string>
     <string name="txtConnectionTimeOutThird">आपका कनेक्शन धीमा या अनुत्तरदायी है</string>
     <string name="txtNeedStoragePermission">फ़ाइल डाउनलोड करने के लिए आपको स्टोरेज की अनुमति देनी होगी.</string>
-    <string name="txtPartnerId01">कैसीनो (MGS)</string>
-    <string name="txtPartnerId02">कैसीनो (BSG)</string>
+    <string name="txtPartnerId01">Casino (MGS)</string>
+    <string name="txtPartnerId02">Casino (BSG)</string>
     <string name="txtPartnerId03">Vip-Suite</string>
-    <string name="txtPartnerId04">कैसीनो - CIP (MGS)</string>
+    <string name="txtPartnerId04">Casino - CIP (MGS)</string>
     <string name="txtPartnerId05">Horse Racing (GBE)</string>
-    <string name="txtPartnerId06">इंपीरियल सुइट</string>
-    <string name="txtPartnerId07">वित्तीय स्थिति (Cantor)</string>
+    <string name="txtPartnerId06">Imperial-Suite</string>
+    <string name="txtPartnerId07">Financials (Cantor)</string>
     <string name="txtPartnerId08">MGS_Poker</string>
-    <string name="txtPartnerId09">ओरिएंटल सुइट</string>
-    <string name="txtPartnerId11">रॉयल सुइट</string>
-    <string name="txtPartnerId13">कैसीनो (Laxino)</string>
-    <string name="txtPartnerId15">वित्तीय स्थिति (Tradologic)</string>
+    <string name="txtPartnerId09">Grand-Suite</string>
+    <string name="txtPartnerId11">Royal-Suite</string>
+    <string name="txtPartnerId13">Casino (Laxino)</string>
+    <string name="txtPartnerId15">Financials (Tradologic)</string>
     <string name="txtPartnerId16">Horse Racing (SBT)</string>
-    <string name="txtPartnerId17">कैसीनो (AgileSlot)</string>
+    <string name="txtPartnerId17">Casino (AgileSlot)</string>
     <string name="txtPartnerId18">लोट्टो</string>
     <string name="txtUpdateRequiredTitle">अपडेट आवश्यक है</string>
     <string name="txtUpdateRequiredMessage">188BET ऐप का उपयोग जारी रखने के लिए आपको एक अपडेट इंस्टॉल करना होगा।</string>
@@ -196,8 +197,8 @@
     <string name="errITGR0013">This app is not supported in your location. We regret any inconvenience caused.</string>
     <string name="txtTransferFromWallet">वॉलेट से स्थानांतरण</string>
     <string name="txtTransferFromNetEnt">Transfer From Euro Live Dealer and Slots</string>
-    <string name="errLOGN0018">अपने खाते के क्रेडेंशियल भूल गए? "भूल गए खाता" स्व-सहायता विकल्प पर क्लिक करें।</string>
-    <string name="errLOGN0020">यह सेवा उपलब्ध नहीं है। कृपया संपर्क करें ग्राहक सेवा सहायता के लिए।</string>
+    <string name="errLOGN0018">Forgot your account credentials? Click on the “Forgot Account“ self-help option.</string>
+    <string name="errLOGN0020">This service is unavailable. Please contact Customer Service for assistance.</string>
     <string name="errLOGN0023">आपके खाते को निलंबित कर दिया गया है। हमारे ग्राहक सेवा से संपर्क करें।</string>
     <string name="navVirtual">आभासी</string>
     <string name="txtInboxDraft">प्रारूप</string>
@@ -208,7 +209,7 @@
     <string name="txtInboxCompose">लिखें</string>
     <string name="txtInboxForward">आगे</string>
     <string name="navInboxDraft">ड्राफ्ट</string>
-    <!-- Fingerprint Unlock -->
+    
     <string name="fingerprint_enable_title">फ़िंगरप्रिंट सक्षम करें</string>
     <string name="fingerprint_enable_message">क्या आप “188BET” को फ़िंगरप्रिंट का उपयोग करने की अनुमति देते हैं?</string>
     <string name="fingerprint_unlock_title">“188BET” के लिए फ़िंगरप्रिंट</string>
@@ -219,8 +220,8 @@
     <string name="titAccountAccountExist">खाता मौजूद है</string>
     <string name="titAccountAccountStatus">खाते की स्थिति</string>
     <string name="phAccountAlternativeEmail">वैकल्पिक ईमेल</string>
-    <string name="txtAccountAttachReceipts">फ़ाइलों को संलग्न करें</string>
-    <string name="txtDidNotGetCode">कोड नहीं मिला?</string>
+    <string name="txtAccountAttachReceipts">Attach files</string>
+    <string name="txtDidNotGetCode">Didn\'t get the code?</string>
     <string name="txtAccountDriversLicense">ड्राइवर का लाइसेंस</string>
     <string name="txtAccountFileCheckRules">अधिकतम फ़ाइल आकार: 4एमबी प्रत्येक | स्वीकृत फ़ाइल प्रकार: JPG, JPEG, PNG, GIF, PDF | फ़ाइल की अधिकतम संख्या: 3</string>
     <string name="titAccountStep1FindAccount">3 में से 1: अपना खाता ढूंढें</string>
@@ -234,15 +235,15 @@
     <string name="titAccountPendingIdentityVerification">लंबित पहचान सत्यापन</string>
     <string name="titAccountStep1AlternativeEmail">3 में से 1: वैकल्पिक ईमेल प्रदान करें</string>
     <string name="txtBtnAccountSubmitLater">बाद में सबमिट करें</string>
-    <string name="txtNewPasswordContent">नया पासवर्ड सेट करें</string>
-    <string name="txtAccountInvalidCodeError_left1">अवैध कोड। 1 प्रयास शेष हैं.</string>
-    <string name="txtAccountInvalidCodeError_left2">अवैध कोड। %d प्रयास शेष हैं.</string>
+    <string name="txtNewPasswordContent">Please set a new password</string>
+    <string name="txtAccountInvalidCodeError_left1">Invalid code. 1 attempt left.</string>
+    <string name="txtAccountInvalidCodeError_left2">Invalid code. %d attempts left.</string>
     <string name="tooltip_see_all_product">सभी उत्पाद देखने के लिए टैप करें</string>
     <string name="helpAccountEmailInvalid">आपने एक अमान्य ईमेल एड्रेस दर्ज किया है। कृपया एक नया ईमेल एड्रेस इनपुट करें.</string>
     <string name="helpAccountIdentityNotFindError">हमें आपके यूजरनेम या ईमेल से मेल खाता कोई खाता नहीं मिला।</string>
     <string name="helpAccountPasswordPolicyInvalid">अक्षर (ए-जेड) और संख्या (0-9) के साथ 6-15 अक्षर।</string>
     <string name="helpAccountNewPasswordNotMatchInvalid">आपका नया पासवर्ड मेल नहीं खाता.</string>
-    <string name="txtAccountYourCanNotUseForgotAccount">आपका खाता आपको \'खाता भूल गया\' प्रक्रिया जारी रखने की अनुमति नहीं देता है। कृपया सहायता के लिए ग्राहक सेवा से संपर्क करें।</string>
+    <string name="txtAccountYourCanNotUseForgotAccount">आपका खाता आपको 'खाता भूल गया' प्रक्रिया जारी रखने की अनुमति नहीं देता है। कृपया सहायता के लिए ग्राहक सेवा से संपर्क करें।</string>
     <string name="txtAccountWrongCodeLimit">आपने गलत कोड दर्ज किया है और प्रयासों की संख्या पार कर ली है।</string>
     <string name="txtAccountTryAfter15Mins">आपके अनुरोधों की संख्या पार हो गई है, कृपया 15 मिनट बाद पुनः प्रयास करें।</string>
     <string name="txtAccountSessionExpired">आपका सत्र पहले ही समाप्त हो चुका है.</string>
@@ -255,15 +256,15 @@
     <string name="txtAccountSecurityCodeSent">यदि आपने वैध उपयोगकर्ता नाम या ईमेल दर्ज किया है तो सुरक्षा कोड आपके ईमेल पर भेजा जाता है।</string>
     <string name="titAccountStep3FindAccount">3 में से 3: नया पासवर्ड सेट करें</string>
     <string name="titAccountSystemError">सिस्टम त्रुटि</string>
-    <string name="msgSystemError">सिस्टम त्रुटि\nहमारे ग्राहक सेवा से संपर्क करें।</string>
+    <string name="msgSystemError">System Error.\nPlease contact customer service.</string>
     <string name="txtUsernameOrEmail">यूजरनेम या ईमेल</string>
     <string name="txtAccountValidFor">के लिए मान्य</string>
     <string name="txtVerificationSuccess">सत्यापन सफलता</string>
-    <string name="txtVerificationSuccessContent_1">सफलता! </string>
-    <string name="txtVerificationSuccessContent_2">हमें आपके दस्तावेज़ प्राप्त हो गए हैं</string>
+    <string name="txtVerificationSuccessContent_1">Success! </string>
+    <string name="txtVerificationSuccessContent_2">We\'ve received your documents</string>
     <string name="txtAccountCanSendToKYCMail">आप अपने नए ईमेल पते पर भेजे गए हमारे ईमेल को भी देख सकते हैं और अपने दस्तावेज़ों के साथ उत्तर दे सकते हैं।</string>
     <string name="txtAccountReached30Mins">आप 30 मिनट की सीमा तक पहुंच गए हैं.</string>
-    <string name="txtForgotAccount">खाता भूल?</string>
+    <string name="txtForgotAccount">&lt;a href="/en-gb/user/forgot-account"&gt;खाता&lt;/a&gt; भूल गए?</string>
     <string name="txtAccountUnableToRegisterEmail">हम इस ईमेल पते को पंजीकृत करने में असमर्थ हैं, कृपया सहायता के लिए ग्राहक सेवा से संपर्क करें।</string>
     <string name="msgJoinUsPasswordPolicy">आपका नया पासवर्ड हमारी पासवर्ड नीति के अनुरूप नहीं है या पहले इस्तेमाल किया जा चुका है।</string>
     <string name="titAccountSessionExpired">सत्र समाप्त हुआ</string>
@@ -274,9 +275,9 @@
     <string name="txtSessionExist">SESSION EXIST</string>
     <string name="txtAccountPendingInFinalProcess">आपके पास एक मौजूदा सत्र है. नए अनुरोध के लिए, कृपया बाद में पुनः प्रयास करें।</string>
     <string name="txtOngoingChat">You have an ongoing chat session</string>
-    <string name="msgAccountChangeToLostEmailFlow">कोड नहीं मिला?\n\n अपने स्पैम और जंक फ़ोल्डर्स की जाँच करें या आप भी कर सकते हैं</string>
+    <string name="msgAccountChangeToLostEmailFlow">कोड नहीं मिला?&lt;br/&gt; अपने स्पैम और जंक फ़ोल्डर्स की जाँच करें या आप भी कर सकते हैं</string>
     <string name="btnAccountChangeEmail">अपना ईमेल बदलें</string>
-    <string name="msgAccountSecurityCodeHint">कोड नहीं मिला?\n\n अपने स्पैम और जंक फ़ोल्डर जांचें</string>
+    <string name="msgAccountSecurityCodeHint">कोड नहीं मिला?&lt;br/&gt; अपने स्पैम और जंक फ़ोल्डर जांचें</string>
 
     <string name="titAccountConfirmExit">क्या आप निश्चित हैं आपकी बाहर निकलने की इच्छा है?</string>
     <string name="msgAccountConfirmExit">प्रक्रिया में आपके द्वारा दर्ज किए गए सभी विवरण खारिज कर दिए जाएंगे</string>
@@ -285,15 +286,15 @@
     <string name="txtCommonViewAll">सभी को देखें</string>
     <string name="txtProfileEligibleWithdrawal">योग्य निकासी</string>
     <string name="txtProfileRemainingRollover">शेष रोलओवर</string>
-    <string name="msgResGamingSuspended">आपका खाता निलंबित कर दिया गया है। कृपया हमारी ग्राहक सेवा  से संपर्क करें।</string>
+    <string name="msgResGamingSuspended">"आपका खाता निलंबित कर दिया गया है। कृपया हमारी ग्राहक सेवा&lt;a href=""/en-gb/corporate-affairs/contact-us""&gt; &lt;/a&gt; से संपर्क करें।"</string>
     <string name="msgRGSettingUpdate">आपका खाता अपडेट करने के लिए आपका सत्र अब समाप्त हो गया है।</string>
     <string name="msgRGSettingDisabled">यह गेम उपलब्ध नहीं है, कृपया अन्य उपलब्ध गेम चुनें।</string>
-    <string name="msgRGAdminExclusion">यह सेवा उपलब्ध नहीं है। कृपया संपर्क करें  ग्राहक सेवा  सहायता के लिए।</string>
-    <string name="msgLoginError1020">अपने खाते के क्रेडेंशियल भूल गए? "भूल गए खाता" स्व-सहायता विकल्प पर क्लिक करें।</string>
-    <string name="msgLoginError1014">आपने अपने खाते पर एक टाइम आउट सेट कर दिया है जो आपको इस समय हमारी सेवाओं का उपयोग करने से रोकता है। टाइम आउट को हटाने का अनुरोध करने के लिए यह अवधि समाप्त होने पर आप कर सकते हैं।</string>
-    <string name="msgLoginError1011">आपके खाते पर  की अवधि के लिए स्व-बहिष्करण लागू किया गया है जो आपको हमारी \nसेवाओं का उपयोग करने से रोकता है।</string>
-    <string name="msgLoginError1010">आपने अपने खाते पर एक स्व-बहिष्करण सेट किया है जो आपको कम से कम 6 महीने तक हमारी सेवाओं का उपयोग करने से रोकता है। \nआप  हमसे संपर्क कर सकते हैं एक बार यह अवधि समाप्त हो जाने पर
-स्व-बहिष्करण को हटाने का अनुरोध किया जा सकता है।</string>
+    <string name="msgRGAdminExclusion">"यह सेवा उपलब्ध नहीं है। कृपया संपर्क करें &lt;a href=""/en-gb/
+कॉर्पोरेट-अफेयर्स/contact-us""&gt; ग्राहक सेवा &lt;/a&gt; सहायता के लिए।</string>
+    <string name="msgLoginError1020">Forgot your account credentials? Click on the “Forgot Account“ self-help option.</string>
+    <string name="msgLoginError1014">You have set a Time Out on your account that prevents you from using our services at this time. You can contact us once this period has expired to request for the removal of Time Out.</string>
+    <string name="msgLoginError1011">Permanent Self-Exclusion has applied on your account.\nYou are permanently excluded from all 188BET products and services.</string>
+    <string name="msgLoginError1010">You have set a self-exclusion on your account that prevents you from using our services for at least 6 months. You can contact us once this period has expired to request removing self exclusion.</string>
     <string name="msgKYCItemWillExpired">पर समय सीमा समाप्त</string>
     <string name="msgKYCItemhasExpired">आइटम की समय सीमा समाप्त हो गई है</string>
     <string name="txtUserInfoToolTip">राशि रोलओवर और खाता सत्यापन के अधीन है।</string>
@@ -311,7 +312,7 @@
     <string name="btnAllow">अनुमति दे</string>
     <string name="btnDeny">अस्वीकार करे</string>
 
-    <!-- Megatron Teaser -->
+    
     <string name="txtMegatronTeaser_0">Welcome to our new Sportsbook App</string>
     <string name="txtMegatronTeaserTitle_1">REDESIGNED HOMEPAGE</string>
     <string name="txtMegatronTeaserContent_1">More events and markets on our homepage to give you a full overview of what is In-Play and what key events are coming up.</string>
@@ -352,20 +353,21 @@
     <string name="navEuroCupRoot">Euro 2020</string>
     <string name="txtStatementAutoBet">ऑटो बेट</string>
 
-    <!-- Footer -->
+    
     <string name="txtPartnership">साझेदारी</string>
     <string name="txtOurPartners">हमारे सहयोगियों</string>
     <string name="titHelpSecurityAndTrust">सुरक्षा और विश्वास</string>
     <string name="titHelpResponsibleGaming">जिम्मेदार गेमिंग</string>
-    <string name="txt188bet">188BET </string>
-    <string name="regCubeAddressDesc">क्यूब लिमिटेड के स्वामित्व वाला एक पंजीकृत ट्रेड मार्क, ब्रांड और पंजीकृत व्यावसायिक नाम है। ग्राउंड फ्लोर, सेंट जॉर्ज कोर्ट, अपर चर्च स्ट्रीट,डगलस, आइल ऑफ मैन, आईएम1 1ईई</string>
+    <string name="txt188bet">188BET </string>
+    <string name="regCubeAddressDesc">क्यूब लिमिटेड के स्वामित्व वाला एक पंजीकृत ट्रेड मार्क, ब्रांड और पंजीकृत व्यावसायिक नाम है। ग्राउंड फ्लोर, सेंट जॉर्ज कोर्ट, अपर चर्च स्ट्रीट,
+डगलस, आइल ऑफ मैन, आईएम1 1ईई</string>
     <string name="regCubeLicense">31/08/2007 से आइल ऑफ मैन गैंबलिंग सुपेर्विसिओं कमीशन द्वारा विनियमित और लाइसेंस प्राप्त (अंतिम नवीनीकरण: 31/08/2022)</string>
-    <string name="regComCopyright">कॉपीराइट © %s 188BET</string>
+    <string name="regComCopyright">कॉपीराइट © {{year}} 188BET</string>
     <string name="titHelpSocialMedia">सामाजिक मीडिया</string>
     <string name="titCommonUsefulLinks">अन्य उपयोगी लिंक</string>
 
     <string name="txtReloadPage">Reload Page</string>
-    <string name="txtRefresh">ताज़ा करन</string>
+    <string name="txtRefresh">Refresh</string>
     <string name="txtAccountEnterSecurityCode">अपना 6 अंकीय कोड यहां रखें.</string>
     <string name="btnProfileCodeSendAgain">पुन: कोड भेजे</string>
     <string name="msgCommonDismiss">नकार</string>
@@ -373,7 +375,7 @@
     <string name="navCorporateAffairs">निगमित मामलों</string>
     <string name="txtInboxSubject">विषय</string>
     <string name="txtInboxSend">भेजना</string>
-    <string name="txtComItemSelected">%d आइटम चयनित</string>
+    <string name="txtComItemSelected">{0} आइटम चयनित</string>
     <string name="navAccountDashboard">डैशबोर्ड</string>
     <string name="titAccountNoAlerts">आपके पास कोई अलर्ट नहीं है</string>
     <string name="txtComAlerts">अलर्ट</string>
@@ -388,7 +390,7 @@
     <string name="msgTermsAndConditionsDescription">इसमें 188BET वेबसाइट तक पहुंच और उपयोग के अधिकारों की व्याख्या करने वाली जानकारी शामिल है।</string>
     <string name="msgPrivacyPolicyDescription">हम व्यक्तिगत जानकारी की सुरक्षा, गोपनीयता और निष्पक्षता बनाए रखने के लिए प्रतिबद्ध हैं</string>
 
-    <!--CC1-2549 register-->
+    
     <string name="txtJoinUsSignUp">साइन अप करें</string>
     <string name="txtJoinUsEmail">ईमेल एड्रेस   </string>
     <string name="helpJoinUsRequired">ऐसा लगता है कि आपने इसे खाली छोड़ दिया है.</string>
@@ -404,29 +406,30 @@
     <string name="txtJoinUsResidenceCountry">निवास का देश</string>
     <string name="helpJoinUsInactiveJurisdiction">हम वर्तमान में इस क्षेत्राधिकार के लिए खाता संबंधी कोई सेवा प्रदान नहीं करते हैं और आपकी रुचि को पंजीकृत करने में असमर्थ हैं।</string>
     <string name="tipJoinUsPreferCurrency">ध्यान दें: आपकी स्थानीय मुद्रा आपके निवास के देश द्वारा स्वचालित रूप से निर्धारित होती है। यदि आप अपना देश बदलना चाहते हैं, तो उपलब्ध मुद्रा भी बदल जाएगी।</string>
-    <string name="tipJoinUsChangeCurrency">पसंदीदा मुद्राओं की सूची चयनित देश के निवास से जुड़ी हुई है; किसी भी चयन को बदलने से दूसरा प्रभावित होगा।. \nपंजीकरण के बाद आपके खाते की पसंदीदा मुद्रा नहीं बदली जा सकती।</string>
+    <string name="tipJoinUsChangeCurrency">पसंदीदा मुद्राओं की सूची चयनित देश के निवास से जुड़ी हुई है; किसी भी चयन को बदलने से दूसरा प्रभावित होगा। &lt;br/&gt; पंजीकरण के बाद आपके खाते की पसंदीदा मुद्रा नहीं बदली जा सकती।</string>
     <string name="txtJoinUsPreferredCurrency">पसंदीदा मुद्रा</string>
     <string name="titAffiliatesId">एफिलिएट ID</string>
     <string name="msgAffiliatesIdNotExist">आपके द्वारा दर्ज की गई एफिलिएट ID मौजूद नहीं है</string>
     <string name="msgCommonFieldIsOptional">यह फ़ील्ड वैकल्पिक है</string>
-    <string name="msgNewJoinUsReadResGaming">कृपया हमारे रिस्पॉन्सिबल गेमिंग को पढ़ने के लिए समय निकालें।</string>
-    <string name="msgLinkResGaming">रिस्पॉन्सिबल गेमिंग।</string>
-    <string name="msgNewJoinUsSendUpdateEmail">मुझे के अनुसार अपडेट और प्रमोशन भेजें गोपनीयता नीति</string>
+    <string name="msgNewJoinUsReadResGaming">कृपया हमारे &lt;a href='{{responsibleGamingUrl}}' target='_blank' class='link-betfont बोल्ड-2x'&gt;रिस्पॉन्सिबल गेमिंग&lt;/a&gt; को पढ़ने के लिए समय निकालें।</string>
+    <string name="msgLinkResGaming">Responsible Gaming.</string>
+    <string name="msgNewJoinUsSendUpdateEmail">"मुझे &lt;a href=""/en-gb/corporate-affairs/privacy-policy" के अनुसार अपडेट और प्रमोशन भेजें"
+target=''_blank'' class=''link-betfont बोल्ड-2x''&gt;गोपनीयता नीति&lt;/a&gt;'</string>
     <string name="msgLinkUpdateEmail">गोपनीयता नीति</string>
-    <string name="msgNewJoinUsImAtLeast18Age">मेरी उम्र कम से कम 18 वर्ष है और मैंने नियम और शर्तें पढ़ लिया है।</string>
+    <string name="msgNewJoinUsImAtLeast18Age">"मेरी उम्र कम से कम 18 वर्ष है और मैंने &lt;a href='{{termsAndConditionUrl}}' target=""_blank"" class=""link-betfont बोल्ड-2x""&gt;नियम और शर्तें&lt;/ पढ़ लिया है। ए&gt;"</string>
     <string name="msgLinkAtLeast18Age">नियम एवं शर्तें</string>
     <string name="msgJoinUsEnterCaptchaCode">कैप्चा कोड दर्ज करें</string>
     <string name="helpSecureCaptchaError">गलत कैप्चा दर्ज किया गया.</string>
     <string name="msgJoinUsFail">साइन अप करने में विफल रहा। हमारे ग्राहक सेवा से संपर्क करें।</string>
     <string name="txtJoinUsNotMember">अभी तक एक सदस्य नहीं हैं?</string>
 
-    <!--CC1-2611 SBK Bet Builder Announcement-->
+    
     <string name="txtSportAnnounceTitle">INTRODUCING BET BUILDER</string>
     <string name="txtSportAnnounceSubTitle">Available for selected Football Matches</string>
     <string name="txtSportAnnounceGotIt">समझ गए</string>
 
     <string name="txtLoginFail">लॉगिन विफल</string>
-    <string name="txtCaptchaNote">नीचे दिखाया गया कैप्चा कोड दर्ज करें</string>
+    <string name="txtCaptchaNote">Enter the captcha codes shown below</string>
 
     <string name="msgReceiveBankAccountDetailsViaEmail">एटीएम/ओवर-द-काउंटर के माध्यम से की गई जमा राशि के लिए बैंक खाते का विवरण ईमेल के माध्यम से प्राप्त करें।</string>
     <string name="btnAccountTakeAction">कार्यवाही करना</string>
@@ -449,8 +452,8 @@
     <string name="notificationTxtTitle">सूचनाएं</string>
     <string name="msgNotifyEmpty">फिलहाल कोई अधिसूचना नहीं है.</string>
 
-    <string name="txtDeleteMessage">मिटाना संदेश</string>
-    <string name="txtDeleteCountMessage">मिटाना (%d) संदेश</string>
+    <string name="txtDeleteMessage">Delete message</string>
+    <string name="txtDeleteCountMessage">Delete (%d) messages</string>
     <string name="txtMessageSentSucc">संदेश सफलतापूर्वक भेजा जा चुका है!</string>
     <string name="txtOpenInBrowser">Open in Browser</string>
     <string name="txtExpiresOn">पर समय सीमा समाप्त</string>
@@ -469,37 +472,37 @@
     <string name="lobbyPromotionCTA">और जानकारी</string>
     <string name="msgAnnouncementEmpty">फिलहाल कोई घोषणा नहीं है.</string>
     <string name="txtDescription">विवरण</string>
-    <string name="txtSoftwareUpdateMessageForOS">हमारे ऐप का उपयोग जारी रखने के लिए एंड्रॉइड 8 और इसके बाद के संस्करण की आवश्यकता है। कृपया अपने
+    <string name="txtSoftwareUpdateMessageForOS">हमारे ऐप का उपयोग जारी रखने के लिए एंड्रॉइड 8 और इसके बाद के संस्करण की आवश्यकता है। कृपया अपने 
 ऑपरेटिंग सिस्टम संस्करण को अपडेट करने के लिए सेटिंग्स पर जाएं।</string>
-    <string name="btnOKandGotIt">ठीक, समझ गए</string>
-    <string name="sdfTimeDate">YYYYवर्ष MMमहीना DDदिन</string>
-    <string name="sdfTimeDateWithTime">YYYYवर्ष MMमहीना DDदिन HH:mm</string>
-    <string name="sdfTimeDateWithDetailTime">YYYYवर्ष MMमहीना DDदिन HH:mm:ss</string>
+    <string name="btnOKandGotIt">OK, GOT IT</string>
+    <string name="sdfTimeDate">dd/MM/yyyy</string>
+    <string name="sdfTimeDateWithTime">dd/MM/yyyy HH:mm</string>
+    <string name="sdfTimeDateWithDetailTime">dd/MM/yyyy HH:mm:ss</string>
     <string name="sdfTimeToday">आज</string>
     <string name="sdfTimeYesterday">कल</string>
 
     <string name="msgPleaseLogin">कृपया अपने खाते में लॉगिन करें.</string>
     <string name="txtStatementGeneral">आम</string>
     <string name="footerSupport">सहायता</string>
-    <string name="txtStatementFreeBet">मुफ़्त शर्त</string>
-    <string name="txtProhibited">प्रवेश वर्जित!</string>
+    <string name="txtStatementFreeBet">Free Bet</string>
+    <string name="txtProhibited">Access Prohibited!</string>
 
-    <string name="txtPromoStatementDetail">स्टेटमेंट विवरण</string>
+    <string name="txtPromoStatementDetail">Statement detail</string>
     <string name="txtStatementReferenceNo">संदर्भ संक्या।</string>
     <string name="txtPchAmount">मात्रा</string>
-    <string name="txtPromoContribution">योगदान</string>
-    <string name="txtPromoDateJoined">शामिल होने की तिथि</string>
-    <string name="txtPromoTransactions">लेनदेन</string>
-    <string name="txtPromoTotalApprovedBonus">कुल स्वीकृत बोनस</string>
-    <string name="txtPromoTotalBonusPot">कुल बोनस पॉट</string>
+    <string name="txtPromoContribution">Contribution</string>
+    <string name="txtPromoDateJoined">Date Joined</string>
+    <string name="txtPromoTransactions">Transactions</string>
+    <string name="txtPromoTotalApprovedBonus">Total Approved Bonus</string>
+    <string name="txtPromoTotalBonusPot">Total Bonus Pot</string>
 
-    <string name="txtPromoLocked">बंद</string>
-    <string name="txtPromoOngoing">जारी</string>
-    <string name="txtPromoCompleted">पूरा हुआ</string>
+    <string name="txtPromoLocked">Locked</string>
+    <string name="txtPromoOngoing">Ongoing</string>
+    <string name="txtPromoCompleted">Completed</string>
     <string name="txtStatementFailed">असफल</string>
-    <string name="txtPromoPendingApprove">अनुमोदन लंबित है</string>
+    <string name="txtPromoPendingApprove">Pending Approve</string>
 
-    <string name="titAccountEmailNotVerified">आपका ईमेल पता अभी तक सत्यापित नहीं है.</string>
-    <string name="btnAccountVerifyNow">अभी सत्यापित करें</string>
-    <string name="txtAccountVerifyEmailNow">कृपया अब अपना ईमेल पता सत्यापित करें.</string>
+    <string name="titAccountEmailNotVerified">Your email address is not yet verified.</string>
+    <string name="btnAccountVerifyNow">Verify now</string>
+    <string name="txtAccountVerifyEmailNow">Please verify your email address now.</string>
 </resources>
